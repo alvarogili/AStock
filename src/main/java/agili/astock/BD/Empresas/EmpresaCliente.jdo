@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE jdo SYSTEM "file:/org/jpox/jdo/jdo_2_0.dtd">
+<jdo>
+    <package name="BD.Empresas">
+	<class name="EmpresaCliente" identity-type="application">
+            <inheritance strategy="new-table"/>        
+        </class>
+    </package>
+</jdo>

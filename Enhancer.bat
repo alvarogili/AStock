@@ -1,0 +1,13 @@
+java -cp build\classes;D:\Software\Java\JPOX\jpox-enhancer-1.2.2.jar;D:\Software\Java\JPOX\jdo2-api-2.0.jar;D:\Software\Java\JPOX\jpox-java5-1.2.3.jar;D:\Software\Java\JPOX\jpox-core-1.2.2.jar;D:\Software\Java\JPOX\asm-all-3.2.jar;D:\Software\Java\JPOX\log4j-1.3alpha-8.jar;D:\Software\Java\JPOX\bcel-5.2.jar -Dlog4j.configuration=file:log4j.properties org.jpox.enhancer.JPOXEnhancer src/BD/Empresas/*.jdo
+java -cp build\classes;D:\Software\Java\JPOX\jpox-enhancer-1.2.2.jar;D:\Software\Java\JPOX\jdo2-api-2.0.jar;D:\Software\Java\JPOX\jpox-java5-1.2.3.jar;D:\Software\Java\JPOX\jpox-core-1.2.2.jar;D:\Software\Java\JPOX\asm-all-3.2.jar;D:\Software\Java\JPOX\log4j-1.3alpha-8.jar;D:\Software\Java\JPOX\bcel-5.2.jar -Dlog4j.configuration=file:log4j.properties org.jpox.enhancer.JPOXEnhancer src/BD/Personas/*.jdo
+java -cp build\classes;D:\Software\Java\JPOX\jpox-enhancer-1.2.2.jar;D:\Software\Java\JPOX\jdo2-api-2.0.jar;D:\Software\Java\JPOX\jpox-java5-1.2.3.jar;D:\Software\Java\JPOX\jpox-core-1.2.2.jar;D:\Software\Java\JPOX\asm-all-3.2.jar;D:\Software\Java\JPOX\log4j-1.3alpha-8.jar;D:\Software\Java\JPOX\bcel-5.2.jar -Dlog4j.configuration=file:log4j.properties org.jpox.enhancer.JPOXEnhancer src/BD/Productos/*.jdo
+java -cp build\classes;D:\Software\Java\JPOX\jpox-enhancer-1.2.2.jar;D:\Software\Java\JPOX\jdo2-api-2.0.jar;D:\Software\Java\JPOX\jpox-java5-1.2.3.jar;D:\Software\Java\JPOX\jpox-core-1.2.2.jar;D:\Software\Java\JPOX\asm-all-3.2.jar;D:\Software\Java\JPOX\log4j-1.3alpha-8.jar;D:\Software\Java\JPOX\bcel-5.2.jar -Dlog4j.configuration=file:log4j.properties org.jpox.enhancer.JPOXEnhancer src/BD/Proveedores/*.jdo
+java -cp build\classes;D:\Software\Java\JPOX\jpox-enhancer-1.2.2.jar;D:\Software\Java\JPOX\jdo2-api-2.0.jar;D:\Software\Java\JPOX\jpox-java5-1.2.3.jar;D:\Software\Java\JPOX\jpox-core-1.2.2.jar;D:\Software\Java\JPOX\asm-all-3.2.jar;D:\Software\Java\JPOX\log4j-1.3alpha-8.jar;D:\Software\Java\JPOX\bcel-5.2.jar -Dlog4j.configuration=file:log4j.properties org.jpox.enhancer.JPOXEnhancer src/BD/Agenda/*.jdo
+java -cp build\classes;D:\Software\Java\JPOX\jpox-enhancer-1.2.2.jar;D:\Software\Java\JPOX\jdo2-api-2.0.jar;D:\Software\Java\JPOX\jpox-java5-1.2.3.jar;D:\Software\Java\JPOX\jpox-core-1.2.2.jar;D:\Software\Java\JPOX\asm-all-3.2.jar;D:\Software\Java\JPOX\log4j-1.3alpha-8.jar;D:\Software\Java\JPOX\bcel-5.2.jar -Dlog4j.configuration=file:log4j.properties org.jpox.enhancer.JPOXEnhancer src/BD/Utilidades/*.jdo
+copy src\BD\Empresas\*.jdo build
+copy src\BD\Personas\*.jdo build
+copy src\BD\Productos\*.jdo build
+copy src\BD\Proveedores\*.jdo build
+copy src\BD\Agenda\*.jdo build
+copy src\BD\Utilidades\*.jdo build
+pause

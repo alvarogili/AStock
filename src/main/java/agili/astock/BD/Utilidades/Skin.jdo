@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Created on :
+    Author     : Alvaro Gili
+    Description:
+        Purpose of the document follows.
+-->
+<!DOCTYPE jdo SYSTEM "file:/org/jpox/jdo/jdo_2_0.dtd">
+<jdo>
+    <package name="BD.Utilidades">
+        <class name="Skin">
+            <inheritance strategy="new-table"/>
+            <field name="skinType" persistence-modifier="persistent" primary-key="true">
+                <column name="SKIN_TYPE"/>
+            </field>
+            <field name="skinName" persistence-modifier="persistent">
+                <column name="SKIN_NAME"/>
+            </field>             
+        </class>
+    </package>
+</jdo>

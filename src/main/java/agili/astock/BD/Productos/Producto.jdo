@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE jdo SYSTEM "file:/org/jpox/jdo/jdo_2_0.dtd">
+<jdo>
+    <package name="BD.Productos">
+        <class name="Producto" identity-type="application">
+            <inheritance strategy="new-table"/>
+            <field name="codigo" persistence-modifier="persistent" primary-key="true">
+                <column name="CODIGO"/>
+            </field>
+            <field name="nombre" persistence-modifier="persistent">
+                <column name="NOMBRE" length="200"/>
+            </field>
+            <field name="categoria" persistence-modifier="persistent">
+                <column name="CATEGORIA"/>
+            </field>
+            <field name="precioCosto" persistence-modifier="persistent">
+                <column name="PRECIO_COSTO"/>
+            </field>
+            <field name="precio" persistence-modifier="persistent">
+                <column name="PRECIO"/>
+            </field>
+            <field name="stockDisponible" persistence-modifier="persistent">
+                <column name="STOCK_DISPONIBLE"/>
+            </field>
+            <field name="stockMinimo" persistence-modifier="persistent">
+                <column name="STOCK_MINIMO"/>
+            </field>
+            <field name="proveedor" persistence-modifier="persistent">
+                <column name="PROVEEDOR"/>
+            </field>            
+        </class>
+    </package>
+</jdo>

@@ -1,0 +1,24 @@
+cierre de caja
+entrada de stock
+facturar
+generar pedidos
+generar compras
+leer codigo de barras
+hacer cliente que agregue solo clientes, productos comprados por él y puedan ver productos -> para vendedores
+agregarle al anterior que facture -> para cajeros
+poder configurar autobackup
+generar lista mails clientes y proveedores
+agregar doble click, enter y suprimir a grilla de productos
+ver si cambia el dia para avisar los cumpleaños (se puede hacer con los eventos)
+
+---------------------------------------------------------------------------------------------------------------
+Stock -> Stock disponible
+Ventana nuevo producto: 
+	precio proveedor
+	precio de lista
+	porcentaje iva (x defecto 21% configurable)
+tabla productos:
+ 	precio proveedor
+	precio lista
+	precio (precio de lista + iva )
+	

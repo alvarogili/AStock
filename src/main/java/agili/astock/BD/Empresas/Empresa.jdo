@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE jdo SYSTEM "file:/org/jpox/jdo/jdo_2_0.dtd">
+<jdo>
+    <package name="BD.Empresas">
+        <class name="Empresa" identity-type="application">
+            <inheritance strategy="new-table"/>
+            <field name="cuit" persistence-modifier="persistent" primary-key="true">
+                <column name="CUIT" length="15"/>
+            </field>
+            <field name="nombre" persistence-modifier="persistent">
+                <column name="NOMBRE" length="200"/>
+            </field>
+            <field name="direccion" persistence-modifier="persistent">
+                <column name="DIRECCION" length="200"/>
+            </field>
+            <field name="codigoPostal" persistence-modifier="persistent">
+                <column name="CODIGO_POSTAL" length="50"/>
+            </field>
+            <field name="localidad" persistence-modifier="persistent">
+                <column name="LOCALIDAD" length="100"/>
+            </field>
+            <field name="provincia" persistence-modifier="persistent">
+                <column name="PROVINCIA" length="100"/>
+            </field>
+            <field name="telefono" persistence-modifier="persistent">
+                <column name="TELEFONO" length="100"/>
+            </field>
+            <field name="telefono2" persistence-modifier="persistent">
+                <column name="TELEFONO2" length="100"/>
+            </field>
+            <field name="correo" persistence-modifier="persistent">
+                <column name="CORREO" length="100"/>
+            </field>
+            <field name="fax" persistence-modifier="persistent">
+                <column name="FAX" length="100"/>
+            </field>
+        </class>
+    </package>
+</jdo>

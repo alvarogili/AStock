@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Created on : 8 de julio de 2009, 11:30
+    Author     : Alvaro Gili
+    Description:
+        Purpose of the document follows.
+-->
+<!DOCTYPE jdo SYSTEM "file:/org/jpox/jdo/jdo_2_0.dtd">
+<jdo>
+    <package name="BD.Personas">
+	<class name="PersonaCliente" identity-type="application">
+            <inheritance strategy="new-table"/>        
+        </class>
+    </package>
+</jdo>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<configuracion>
+	<URLBD>localhost</URLBD>
+	<UsuarioBD>root</UsuarioBD>
+	<VerificarEventosAlInicio>true</VerificarEventosAlInicio>
+	<tiempoDeActualizacion>10</tiempoDeActualizacion><!--En segundos-->
+	<IVA>21</IVA>
+</configuracion>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Created on :
+    Author     : Alvaro Gili
+    Description:
+        Purpose of the document follows.
+-->
+<!DOCTYPE jdo SYSTEM "file:/org/jpox/jdo/jdo_2_0.dtd">
+<jdo>
+    <package name="BD.Agenda">
+        <class name="Evento">
+            <inheritance strategy="new-table"/>
+            <field name="horaYFecha" persistence-modifier="persistent">
+                <column name="HORA_Y_FECHA"/>
+            </field>
+             <field name="categoria" persistence-modifier="persistent">
+                <column name="CATEGORIA"/>
+            </field>
+            <field name="descripcion" persistence-modifier="persistent">
+                <column name="DESCRIPCION" length="500"/>
+            </field>           
+            <field name="alarma" persistence-modifier="persistent">
+                <column name="ALARMA"/>
+            </field>
+            <field name="mostrado" persistence-modifier="persistent">
+                <column name="MOSTRADO"/>
+            </field>
+        </class>
+    </package>
+</jdo>
+
